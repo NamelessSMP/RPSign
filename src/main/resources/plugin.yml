@@ -1,0 +1,14 @@
+name: NamelessRPSign
+version: '${project.version}'
+main: org.ripex.namelessrpsign.NamelessRPSig
+api-version: '1.20'
+permissions:
+  rp.use:
+    description: Allows the player to leash other players.
+    default: true
+commands:
+  rp:
+    description: Основная команда для добавления ваших РП
+    usage: /<command> [word] [link]
+    permission: rp.use
+    permission-message: У вас нет разрешения использовать эту команду!

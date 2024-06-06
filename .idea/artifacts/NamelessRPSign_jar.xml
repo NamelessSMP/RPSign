@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="NamelessRPSign:jar">
+    <output-path>$PROJECT_DIR$/../../../../Test Plugin Server/plugins</output-path>
+    <root id="archive" name="NamelessRPSign.jar">
+      <element id="module-output" name="NamelessRPSign" />
+    </root>
+  </artifact>
+</component>
